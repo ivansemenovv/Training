@@ -45,6 +45,7 @@
     <Compile Include="DivideWithoutDiv.cs" />
     <Compile Include="DutchNationalFlag.cs" />
     <Compile Include="IslandCounter.cs" />
+    <Compile Include="MininumNumberMeetingRooms.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestHelper.cs" />
