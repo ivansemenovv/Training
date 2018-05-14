@@ -8,7 +8,7 @@ namespace Training
 {
     class IslandCounter
     {
-        public static void RunTestsCases()
+        public static void RunTestCases()
         {
             int[][] land1 = new int[][] {
                 new int[]{ 1, 1, 0},

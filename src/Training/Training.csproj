@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DivideWithoutDiv.cs" />
+    <Compile Include="DutchNationalFlag.cs" />
     <Compile Include="IslandCounter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

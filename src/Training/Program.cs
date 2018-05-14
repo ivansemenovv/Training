@@ -10,8 +10,9 @@ namespace Training
     {
         static void Main(string[] args)
         {
-            IslandCounter.RunTestsCases();
-            DivideWithoutDiv.RunTestsCases();
+            //IslandCounter.RunTestCases();
+            //DivideWithoutDiv.RunTestCases();
+            DutchNationalFlag.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();

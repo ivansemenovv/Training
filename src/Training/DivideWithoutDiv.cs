@@ -8,7 +8,7 @@ namespace Training
 {
     class DivideWithoutDiv
     {
-        public static void RunTestsCases()
+        public static void RunTestCases()
         {
             int r = Divide(8, 2);
             TestHelper.IsEquals(r, 4);
