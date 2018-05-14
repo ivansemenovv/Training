@@ -11,6 +11,8 @@ namespace Training
         static void Main(string[] args)
         {
             IslandCounter.RunTestsCases();
+            DivideWithoutDiv.RunTestsCases();
+
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
         }
