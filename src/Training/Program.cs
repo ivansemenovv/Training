@@ -6,12 +6,14 @@ namespace Training
     {
         static void Main(string[] args)
         {
-            //IslandCounter.RunTestCases();
-            //DivideWithoutDiv.RunTestCases();
-            //DutchNationalFlag.RunTestCases();
-            //MininumNumberMeetingRooms.RunTestCases();
-            //kbonacci.RunTestCases();
-            TreeSerializer.RunTestCases();
+            // IslandCounter.RunTestCases();
+            // DivideWithoutDiv.RunTestCases();
+            // DutchNationalFlag.RunTestCases();
+            // MininumNumberMeetingRooms.RunTestCases();
+            // kbonacci.RunTestCases();
+            // TreeSerializer.RunTestCases();
+
+            BSTValidation.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
