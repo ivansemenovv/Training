@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Training
+﻿namespace Training
 {
     class Node
     {
-        public Node left;
-        public Node right;
-        public int Value = 0;
+        public int Value;
+        public int height = 1;
+
+        public Node left = null;
+        public Node right = null;
 
         public Node(int v)
         {

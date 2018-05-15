@@ -10,7 +10,8 @@ namespace Training
             //DivideWithoutDiv.RunTestCases();
             //DutchNationalFlag.RunTestCases();
             //MininumNumberMeetingRooms.RunTestCases();
-            kbonacci.RunTestCases();
+            //kbonacci.RunTestCases();
+            TreeSerializer.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
