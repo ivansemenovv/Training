@@ -13,7 +13,9 @@ namespace Training
             // kbonacci.RunTestCases();
             // TreeSerializer.RunTestCases();
 
-            BSTValidation.RunTestCases();
+            // BSTValidation.RunTestCases();
+            // QuickSort.RunTestCases();
+            SelectKthElement.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
