@@ -12,13 +12,13 @@ namespace Training
             // MininumNumberMeetingRooms.RunTestCases();
             // kbonacci.RunTestCases();
             // TreeSerializer.RunTestCases();
-
             // BSTValidation.RunTestCases();
             // QuickSort.RunTestCases();
             // SelectKthElement.RunTestCases();
             // SVNBisect.RunTestCases();
+            //PhoneNumberToString.RunTestCases();
 
-            PhoneNumberToString.RunTestCases();
+            IntersectionTwoSortedArrays.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();

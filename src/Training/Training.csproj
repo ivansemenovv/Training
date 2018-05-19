@@ -47,6 +47,7 @@
     <Compile Include="BSTValidation.cs" />
     <Compile Include="DivideWithoutDiv.cs" />
     <Compile Include="DutchNationalFlag.cs" />
+    <Compile Include="IntersectionTwoSortedArrays.cs" />
     <Compile Include="IslandCounter.cs" />
     <Compile Include="kbonacci.cs" />
     <Compile Include="MininumNumberMeetingRooms.cs" />
