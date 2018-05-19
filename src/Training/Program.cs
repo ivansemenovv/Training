@@ -16,9 +16,10 @@ namespace Training
             // QuickSort.RunTestCases();
             // SelectKthElement.RunTestCases();
             // SVNBisect.RunTestCases();
-            //PhoneNumberToString.RunTestCases();
+            // PhoneNumberToString.RunTestCases();
+            // IntersectionTwoSortedArrays.RunTestCases();
 
-            IntersectionTwoSortedArrays.RunTestCases();
+            TreeToList.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();

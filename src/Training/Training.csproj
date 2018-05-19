@@ -61,6 +61,7 @@
     <Compile Include="TestBlock.cs" />
     <Compile Include="TestHelper.cs" />
     <Compile Include="TreeSerializer.cs" />
+    <Compile Include="TreeToList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
