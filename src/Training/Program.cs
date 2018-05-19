@@ -15,7 +15,9 @@ namespace Training
 
             // BSTValidation.RunTestCases();
             // QuickSort.RunTestCases();
-            SelectKthElement.RunTestCases();
+            // SelectKthElement.RunTestCases();
+
+            SVNBisect.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
