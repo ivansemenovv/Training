@@ -51,6 +51,7 @@
     <Compile Include="kbonacci.cs" />
     <Compile Include="MininumNumberMeetingRooms.cs" />
     <Compile Include="Node.cs" />
+    <Compile Include="PhoneNumberToString.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuickSort.cs" />
