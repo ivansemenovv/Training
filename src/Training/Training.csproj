@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AVLTree.cs" />
     <Compile Include="BSTValidation.cs" />
+    <Compile Include="Interpretations.cs" />
     <Compile Include="DivideWithoutDiv.cs" />
     <Compile Include="DutchNationalFlag.cs" />
     <Compile Include="IntersectionTwoSortedArrays.cs" />

@@ -18,8 +18,9 @@ namespace Training
             // SVNBisect.RunTestCases();
             // PhoneNumberToString.RunTestCases();
             // IntersectionTwoSortedArrays.RunTestCases();
+            // TreeToList.RunTestCases();
 
-            TreeToList.RunTestCases();
+            Interpretations.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
