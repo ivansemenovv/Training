@@ -20,8 +20,9 @@ namespace Training
             // IntersectionTwoSortedArrays.RunTestCases();
             // TreeToList.RunTestCases();
             // Interpretations.RunTestCases();
+            // Reader4096.RunTestCases();
 
-            Reader4096.RunTestCases();
+            IntervalIntersection.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
