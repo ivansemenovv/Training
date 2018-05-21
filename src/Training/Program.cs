@@ -19,8 +19,9 @@ namespace Training
             // PhoneNumberToString.RunTestCases();
             // IntersectionTwoSortedArrays.RunTestCases();
             // TreeToList.RunTestCases();
+            // Interpretations.RunTestCases();
 
-            Interpretations.RunTestCases();
+            Reader4096.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
