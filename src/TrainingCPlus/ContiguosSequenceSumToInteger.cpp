@@ -19,6 +19,9 @@ void ContiguosSequenceSumToInteger::RunTestCases()
     vector<int> a{ 1,3,4,5,6,7,8,9 };
     auto interval = GetIntervalToMatchSum(a, 7);
     TestHelper::IsEquals(interval, Interval(1,2));
+
+    auto interval1 = GetIntervalToMatchSum(a, 18);
+    TestHelper::IsEquals(interval1, Interval(1, 4));
 }
 
 Interval ContiguosSequenceSumToInteger::GetIntervalToMatchSum(std::vector<int> a, int sum)
