@@ -10,6 +10,8 @@ void TaskScheduler::RunTestCases()
     vector<char> tasks{ 'A','B', 'B','A','B','B','C' };
     TestHelper::IsEquals(13, GetMinTime(tasks, 3));
     TestHelper::IsEquals(10, GetMinTime(tasks, 2));
+    TestHelper::IsEquals(16, GetMinTime(tasks, 4));
+    TestHelper::IsEquals(19, GetMinTime(tasks, 5));
 }
 
 int TaskScheduler::GetMinTime(std::vector<char> tasks, int k)
