@@ -3,17 +3,6 @@
 
 using namespace std;
 
-ContiguosSequenceSumToInteger::ContiguosSequenceSumToInteger()
-{
-    cout << L"Constructor ContiguosSequenceSumToInteger" << std::endl;
-}
-
-
-ContiguosSequenceSumToInteger::~ContiguosSequenceSumToInteger()
-{
-    cout << L"Destructor ContiguosSequenceSumToInteger" << std::endl;
-}
-
 void ContiguosSequenceSumToInteger::RunTestCases()
 {
     vector<int> a{ 1,3,4,5,6,7,8,9 };

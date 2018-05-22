@@ -46,9 +46,6 @@ public:
 class ContiguosSequenceSumToInteger
 {
 public:
-    ContiguosSequenceSumToInteger();
-    ~ContiguosSequenceSumToInteger();
-
     static void RunTestCases();
     static Interval GetIntervalToMatchSum(std::vector<int> a, int sum);
 };
