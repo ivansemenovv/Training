@@ -21,8 +21,9 @@ namespace Training
             // TreeToList.RunTestCases();
             // Interpretations.RunTestCases();
             // Reader4096.RunTestCases();
+            // IntervalIntersection.RunTestCases();
 
-            IntervalIntersection.RunTestCases();
+            FileCache.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
