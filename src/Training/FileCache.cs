@@ -23,13 +23,38 @@ namespace Training
 
         public static void RunTestCases()
         {
-            var fc = new FileCache(12000);
+            using (var fw = new StreamWriter("FileCacheTestOutput.txt"))
+            {
+                using (var fr = new StreamReader("FileCacheTestInput.txt"))
+                {
+                    int cacheSize = Convert.ToInt32(fr.ReadLine());
+                    var fc = new FileCache(cacheSize);
+                    int numberOfFiles = Convert.ToInt32(fr.ReadLine());
+                    for (int i = 0; i < numberOfFiles; i++)
+                    {
+                        var fileUrl = fr.ReadLine();
+                        var fileContainer = fc.Get(fileUrl);
+                        if (null == fileContainer)
+                        {
+                            var fileContent = fc.DownloadFile(fileUrl);
+                            fc.Add(fileUrl, fileContent);
+                            fw.WriteLine("{0} DOWNLOADED {1}", fileUrl, fileContent.Capacity);
+                        }
+                        else
+                        {
+                            fw.WriteLine("{0} IN_CACHE {1}", fileContainer.fileName, fileContainer.content.Capacity);
+                        }
+                    }
+                }
+            }
+        }
 
-            fc.Add("https://placeholdit.imgix.net/~text?txt=image1");
-            fc.Add("https://placeholdit.imgix.net/~text?txt=image2");
-            fc.Add("https://placeholdit.imgix.net/~text?txt=image3");
-            fc.Get("https://placeholdit.imgix.net/~text?txt=image2");
-            fc.Add("https://placeholdit.imgix.net/~text?txt=image4");
+        public void ReadFromFile()
+        {
+            using (var fr = new StreamReader("c:\test.txt"))
+            {
+
+            }
         }
 
         public FileCache(int cacheSize)
@@ -37,13 +62,13 @@ namespace Training
             this.cacheSize = cacheSize;
         }
 
-        public void Add(string fileUrl)
+        public void Add(string fileUrl, MemoryStream fileContent)
         {
             lock (this)
             {
                 if (!map.ContainsKey(fileUrl))
                 {
-                    var fileSize = GetFileSize(fileUrl);
+                    var fileSize = fileContent.Capacity;
                     while (this.currentCacheSize + fileSize > this.cacheSize)
                     {
                         if (map.Count == 0)
@@ -54,7 +79,7 @@ namespace Training
                     FileContainer fc = new FileContainer()
                     {
                         fileName = fileUrl,
-                        content = DownloadFile(fileUrl)
+                        content = fileContent
                     };
                     var node = queue.AddFirst(fc);
                     map.Add(fileUrl, node);
