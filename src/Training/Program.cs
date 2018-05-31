@@ -23,7 +23,7 @@ namespace Training
             // Reader4096.RunTestCases();
             // IntervalIntersection.RunTestCases();
 
-            FileCache.RunTestCases();
+            // FileCache.RunTestCases();
 
             Console.WriteLine("Press 'Enter' to exit");
             Console.ReadLine();
