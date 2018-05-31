@@ -148,8 +148,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AddTwoNumbersAsLists.h" />
+    <ClInclude Include="Computer.h" />
     <ClInclude Include="ContiguosSequenceSumToInteger.h" />
     <ClInclude Include="ConvexHull.h" />
+    <ClInclude Include="NetworkComputerCounter.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="RegexpMatcher.h" />
     <ClInclude Include="resource.h" />
@@ -161,8 +163,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AddTwoNumbersAsLists.cpp" />
+    <ClCompile Include="Computer.cpp" />
     <ClCompile Include="ContiguosSequenceSumToInteger.cpp" />
     <ClCompile Include="ConvexHull.cpp" />
+    <ClCompile Include="NetworkComputerCounter.cpp" />
     <ClCompile Include="RegexpMatcher.cpp" />
     <ClCompile Include="SpellCheckWildcard.cpp" />
     <ClCompile Include="stdafx.cpp">
