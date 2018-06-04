@@ -36,7 +36,7 @@ int UniquePathsInGrid::GetUniquePathsCount(vector<vector<int>>& A)
     vector<vector<int>> dp(A.size(), vector<int>(A[0].size(), 0));
 
     // fill last column with 1
-    for (int i = dp.size() - 2; i >= 0; i--)
+    for (int i = dp.size() - 1; i >= 0; i--)
     {
         if (A[i][A[0].size() - 1] == 0)
             dp[i][dp[0].size() - 1] = 1;
@@ -45,7 +45,7 @@ int UniquePathsInGrid::GetUniquePathsCount(vector<vector<int>>& A)
     }
 
     // fill last row with 1
-    for (int j = dp[dp.size() - 1].size() - 2; j >= 0; j--)
+    for (int j = dp[dp.size() - 1].size() - 1; j >= 0; j--)
     {
         if (A[dp.size() - 1][j] == 0)
             dp[dp.size() - 1][j] = 1;
