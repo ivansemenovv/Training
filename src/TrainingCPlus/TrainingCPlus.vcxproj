@@ -151,6 +151,7 @@
     <ClInclude Include="Computer.h" />
     <ClInclude Include="ContiguosSequenceSumToInteger.h" />
     <ClInclude Include="ConvexHull.h" />
+    <ClInclude Include="LongestIncreasingSubsequence.h" />
     <ClInclude Include="NetworkComputerCounter.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="RegexpMatcher.h" />
@@ -166,6 +167,7 @@
     <ClCompile Include="Computer.cpp" />
     <ClCompile Include="ContiguosSequenceSumToInteger.cpp" />
     <ClCompile Include="ConvexHull.cpp" />
+    <ClCompile Include="LongestIncreasingSubsequence.cpp" />
     <ClCompile Include="NetworkComputerCounter.cpp" />
     <ClCompile Include="RegexpMatcher.cpp" />
     <ClCompile Include="SpellCheckWildcard.cpp" />
