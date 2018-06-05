@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="AddTwoNumbersAsLists.h" />
     <ClInclude Include="BestTimeToBuySellStocks1.h" />
+    <ClInclude Include="BestTimeToBuySellStocks2.h" />
     <ClInclude Include="Computer.h" />
     <ClInclude Include="ContiguosSequenceSumToInteger.h" />
     <ClInclude Include="ConvexHull.h" />
@@ -168,6 +169,7 @@
   <ItemGroup>
     <ClCompile Include="AddTwoNumbersAsLists.cpp" />
     <ClCompile Include="BestTimeToBuySellStocks1.cpp" />
+    <ClCompile Include="BestTimeToBuySellStocks2.cpp" />
     <ClCompile Include="Computer.cpp" />
     <ClCompile Include="ContiguosSequenceSumToInteger.cpp" />
     <ClCompile Include="ConvexHull.cpp" />
